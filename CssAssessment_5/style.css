@@ -1,0 +1,145 @@
+body{
+    background-color:rgb(207, 223, 58);
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.box_1{
+    background-color: darkslateblue;
+    width: 50px;
+    height: 60px;
+    padding: 25px;
+    margin: 2rem 2rem 0.5rem 2rem;  
+    transform: skewX(20deg);  
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-name: test1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes test1{
+    from{
+        transform: skewX(20deg);
+    }
+    to{
+        transform: skewX(-20deg);
+    }
+}
+.box_2{
+    background-color: rgb(144, 98, 177);
+    width: 50px;
+    height: 60px;
+    padding: 25px;
+    margin: 4rem 2rem 0.5rem 2rem;    
+    /* transform: skewX(20deg);   */
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-name: test2;
+    animation-direction:alternate;
+    animation-timing-function:ease-out;
+}
+@keyframes test2{
+    from{
+        transform: skewY(20deg);
+    }
+    to{
+        transform: skewY(-20deg);
+    }
+}
+.box_3{
+    background-color: rgb(103, 78, 194);
+    width: 50px;
+    height: 60px;
+    padding: 25px;
+    margin: 4rem 2rem 0.5rem 2rem;      
+    animation-iteration-count:infinite;
+    animation-duration: 3s;
+    animation-name: test3;
+    animation-direction:normal;
+    animation-timing-function: In Out · Sine;
+}
+@keyframes test3{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+.box_4{
+    background-color: rgb(61, 101, 139);
+    width: 50px;
+    height: 60px;
+    padding: 25px;
+    border: 3px solid rgb(57, 49, 122);
+    margin: 4rem 2rem 0.5rem 2rem;
+}    
+.A4{
+    animation-iteration-count:infinite;
+    animation-duration: 3s;
+    animation-name: test4;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+}
+@keyframes test4{
+    from{
+        transform:scaleY(1);
+    }
+    to{
+        transform:scaleY(.5);
+    }
+}
+.B4{
+    background-color: rgb(172, 85, 82);
+    animation-iteration-count:infinite;
+    animation-duration: 3s;
+    animation-name: test5;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+}
+@keyframes test5{
+    from{
+        transform:scaleX(1);
+    }
+    to{
+        transform:scaleX(.5);
+    }
+}
+.C4{
+    animation-iteration-count:infinite;
+    animation-duration: 3s;
+    animation-name: test6;
+    animation-direction:normal;
+    animation-timing-function: linear;
+    margin-bottom: 30px;
+}
+@keyframes test6{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(100deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.num_1{
+    vertical-align: bottom;
+}
+h1{
+    margin-bottom: 0;
+}
+.hl_1{
+    font-size: 1.5rem;
+    position: relative;
+    left: 100px;
+}
+/* .link{
+    
+} */

@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(207, 223, 58);
+}
+.container_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.box{
+    background-color: rgb(91, 175, 80);
+    width: 50px;
+    height: 60px;
+    padding: 25px;
+    transition: width 5s;
+    margin: 10px;
+}
+.box:hover{
+    width: 300px;
+}
+.box2{
+    transition: width 2s, height 5s;
+}
+.box2:hover{
+    width: 300px;
+    height: 300px;
+}
+a{
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    left: 40px;
+}
