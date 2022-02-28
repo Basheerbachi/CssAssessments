@@ -1,0 +1,157 @@
+body{
+    background-image: url("./shara\ desert.jpg");
+    background-size: cover;
+}
+.Main_container{
+    margin: 0px 100px;
+}
+nav{
+    margin-top: 20px;
+}
+.nav_1{
+    /* display: flex; */
+    float: right;
+
+}
+a{
+    color: white;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+h1{
+    color: white;
+    font-size: 4rem;
+    font-weight:800;
+    margin-bottom: 1rem;
+}
+.menu1{
+    margin-left: 30px;
+    
+}
+.camel{
+    position: absolute;
+    /* margin: 20px 0px; */
+     width: 40px;
+     height: 40px;
+}
+.flex_container{
+    display: flex;
+}
+.left_container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.title
+{
+    margin-top: 10vh;
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+}
+.lorem1{
+    color: white;
+    text-align: left;
+    margin-right: 150px;
+}
+.explore{
+    background-color: white;
+    padding-top: .8rem;
+    height: 2rem;
+    width: 12rem;
+    text-align: center;
+    border-radius: 100px;
+}
+.right_container{
+    display:flex;
+    flex-flow: row wrap;
+}
+.box{
+    width: 15vw;
+    height: 20vw;
+    margin: 10px;
+    border-radius: .5rem;
+}
+.box1{
+    background-image: url(./pic-1.png);
+    background-size: cover;
+}
+.box2{
+    background-image: url(./pic-2.png);
+    background-size: cover;
+}
+.box3{
+    background-image: url(./pic-3.png);
+    background-size: cover;
+}
+.box4{
+    background-image: url(./pic-4.png);
+    background-size: cover;
+}
+.box:hover
+{
+    transform: translateY(-0.8rem);
+}
+h5, p
+{
+    color: white;
+    padding-left: 20px;
+}
+p
+{
+    font-size: .7rem;
+}
+
+@media screen and (max-width:850px){
+    .flex_container
+    {
+        flex-flow: column wrap;
+    }
+    .left-container
+    {
+        width: 100vw;
+        margin-left: 10vw;
+        margin-bottom: 2rem;
+    }
+    .title
+    {
+        font-size: 5rem;
+    }
+    .lorem1
+    {
+        text-align: center;
+        text-align: left;
+        margin-bottom: 30px;
+        margin-right: 10vw;
+    }
+    .right-container
+    {
+        width: 100vw;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+    .box
+    {
+        width: 60vw;
+        height: 55vh;
+    }
+    .box1
+    {
+        margin-right: 0vw;
+    }
+    .box2
+    {
+        margin-top: 2rem;
+    }
+    .box3
+    {
+        margin-right: 0vw;
+        margin-top: 2rem;
+    }
+    .box4
+    {
+        margin-top: 2rem;
+    }
+}
